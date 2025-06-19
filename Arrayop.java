@@ -4,7 +4,6 @@ public class ArrayOperations {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input: Array Size
         System.out.print("Enter number of elements: ");
         int n = sc.nextInt();
 
@@ -24,7 +23,6 @@ public class ArrayOperations {
         int min = arr[0];
         System.out.println("Max: " + max + ", Min: " + min);
 
-        // 4. Calculate average
         double sum = 0;
         for (int num : arr) {
             sum += num;
@@ -46,7 +44,6 @@ public class ArrayOperations {
             System.out.println("Element not found.");
         }
 
-        // 6. Reverse the array
         System.out.print("Reversed Array: ");
         for (int i = n - 1; i >= 0; i--) {
             System.out.print(arr[i] + " ");
