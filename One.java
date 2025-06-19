@@ -5,6 +5,8 @@
 ● Approach: Use Scanner for input and subtract from system year.
 ● Hint: Use java.util.Calendar.getInstance().get(Calendar.YEAR)
 ● Logic: Simple arithmetic and input/output*/
+
+
 import java.util.Scanner;
 import java.util.Calendar;
 class One{
