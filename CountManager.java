@@ -5,18 +5,15 @@ public class CountManager {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input count of boys and girls
         System.out.print("Enter the number of boys: ");
         int boysCount = scanner.nextInt();
 
         System.out.print("Enter the number of girls: ");
         int girlsCount = scanner.nextInt();
 
-        // Display total count
         int total = boysCount + girlsCount;
         System.out.println("Total students: " + total);
 
-        // Compare counts
         if (boysCount > girlsCount) {
             System.out.println("There are more boys than girls.");
         } else if (girlsCount > boysCount) {
@@ -25,12 +22,7 @@ public class CountManager {
             System.out.println("The number of boys and girls is equal.");
         }
 
-        // Optional: percentage
-        double boysPercent = (boysCount * 100.0) / total;
-        double girlsPercent = (girlsCount * 100.0) / total;
-
-        System.out.printf("Boys: %.2f%%\n", boysPercent);
-        System.out.printf("Girls: %.2f%%\n", girlsPercent);
+    
 
         scanner.close();
     }
