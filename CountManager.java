@@ -12,7 +12,7 @@ public class CountManager {
         int girlsCount = scanner.nextInt();
 
         int total = boysCount + girlsCount;
-        System.out.println("Total students: " + total);
+        System.out.println("Total   students: " + total);
 
         if (boysCount > girlsCount) {
             System.out.println("There are more boys than girls.");
